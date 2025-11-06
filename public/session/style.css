@@ -1,0 +1,61 @@
+.divider_blocks{
+    
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+html, body, .main_block{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+#input{
+    display: flex;
+    height: 10%;
+}
+
+.text_input{
+    width: 100%;
+}
+
+.main_block{
+    flex-direction: column;
+}
+
+#left_block{
+    background-color: antiquewhite;
+}
+
+#right_block{
+    width: 50%;
+    background-color: brown;
+}
+
+#send_button{
+    width: 10%;
+}
+
+#message_block{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 8px;
+    overflow-y: auto;
+}
+
+#head{
+    height: 10%;
+}
+
+.message{
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 50px;
+    background-color: chartreuse;
+    
+}
