@@ -12,6 +12,9 @@ html, body, .main_block{
     height: 100%;
     width: 100%;
     align-items: center;
+    background-color: rgb(44, 45, 47);
+    color: rgb(255, 251, 245);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #input{
@@ -21,6 +24,8 @@ html, body, .main_block{
 
 .text_input{
     width: 100%;
+    background-color: rgb(44, 45, 47);
+    color: white;
 }
 
 .main_block{
@@ -28,12 +33,12 @@ html, body, .main_block{
 }
 
 #left_block{
-    background-color: antiquewhite;
+    background-color: rgb(44, 45, 47);
 }
 
 #right_block{
     width: 50%;
-    background-color: brown;
+    background-color: rgb(67, 69, 72);
 }
 
 #send_button{
@@ -41,7 +46,7 @@ html, body, .main_block{
 }
 
 #message_block{
-    background-color: aquamarine;
+    background-color: rgb(28, 29, 30);
     display: flex;
     flex-direction: column-reverse;
     gap: 8px;
@@ -56,6 +61,18 @@ html, body, .main_block{
     min-width: 200px;
     max-width: 300px;
     min-height: 50px;
-    background-color: chartreuse;
+    background-color: rgb(39, 42, 49);
     
+}
+
+#player_selector{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: medium;
+}
+
+.inside_block{
+    display: flex;
+    flex-direction: column;
 }
