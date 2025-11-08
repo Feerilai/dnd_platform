@@ -1,4 +1,6 @@
 
-const ws = new WebSocket("ws://localhost:8765");
+ip = "wss://upgraded-eureka-wwx94794pgxh59rw-8765.app.github.dev/"
+
+const ws = new WebSocket(ip);
 ws.onopen = () => ws.send("hello");
-ws.onmessage = event => console.log(event.data);
+ws.onmessage = event => alert(event.data);

@@ -74,5 +74,10 @@ html, body, .main_block{
 
 .inside_block{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+#player_list_window{
+    background-color: rgb(46, 46, 46);
+    border: 10px white;
 }
