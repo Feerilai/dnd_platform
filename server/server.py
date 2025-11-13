@@ -1,9 +1,15 @@
 import asyncio
 import websockets
 
+current_user_list = [
+
+]
+
 async def handler(websocket):
     async for message in websocket:
-        await websocket.send(f'answer: {message}')
+        #await 
+        if(message[0] == "c"):
+            await websocket.send(f'New user connected')
     
 async def main():
     async with websockets.serve(handler, '0.0.0.0', 8765):
